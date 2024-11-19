@@ -13,7 +13,7 @@ public class Cheers {
                 }
         }
         int n = Integer.parseInt(args[1]);
-        System.out.println("what dose that spell?");
+        System.out.println("What does that spell?");
                 for (int t = 0; t <= n; t++)
                 System.out.println(s + "!!!");
         }

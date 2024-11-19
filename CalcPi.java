@@ -12,7 +12,7 @@ public class CalcPi {
 		zero *= 4;
 		double pie = Math.PI;
 		System.out.println("pi according to java: " + pie);
-		System.out.println("pi, approximated: " + zero);
+		System.out.println("pi, approximated:    " + zero);
 		
 	}
 }
