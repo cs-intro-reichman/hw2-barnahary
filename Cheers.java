@@ -7,7 +7,7 @@ public class Cheers {
         for (int i = 0; i < length; i++) {
                 char o = s.charAt(i);
                 if (an.indexOf(o) != -1) {
-                        System.out.println("Give me an  " + o + ": " + o + "!");
+                        System.out.println("Give me an " + o + ": " + o + "!");
                 } else {
                         System.out.println("Give me a  " + o + ": " + o + "!");
                 }
