@@ -1,9 +1,9 @@
 // Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
-	String s = args[0];
+	String s = args[0].toUpperCase();
         int length = s.length();
-        String an ="AEFHILMNORSX";
+        String an ="AEFHILMNORSXaefhilmnorsx";
         for (int i = 0; i < length; i++) {
                 char o = s.charAt(i);
                 if (an.indexOf(o) != -1) {
